@@ -1,0 +1,45 @@
+.container{
+    border-radius: 50px;
+    display: flex;
+    width: 80vw;
+}
+
+.first {
+    background-color: #00308F;
+    height: .7rem;
+}
+
+.second {
+    background-color: #72A0C1;
+    width: 24%;
+    height: .7rem;
+}
+
+.third {
+    background-color: #7CB9E8;
+    width: 20%;
+    height: .7rem;
+}
+
+.fourth {
+    background-color: #6495ED;
+    width: 20%;
+    height: .7rem;
+}
+
+.container>:first-child{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.container>:last-child{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.statusName{
+    margin-top: .4rem;
+    letter-spacing: .5px;
+    font-size: .8rem;
+    font-weight: 600;
+}
